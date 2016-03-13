@@ -84,7 +84,7 @@
 (require 'init-moz)
 (require 'init-gtags)
 ;; use evil mode (vi key binding)
-(require 'init-evil)
+;; (require 'init-evil)
 (require 'init-sh)
 (require 'init-ctags)
 (require 'init-bbdb)
@@ -141,6 +141,7 @@
 ;; my personal setup, other major-mode specific setup need it.
 ;; It's dependent on init-site-lisp.el
 (if (file-exists-p "~/.custom.el") (load-file "~/.custom.el"))
+(require 'init-songsy)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
