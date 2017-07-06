@@ -1,5 +1,15 @@
 
 (require 'xcscope)
+(require 'go-mode)
+(require 'go-mode-autoloads)
+(require 'flymake-go)
+(require 'auto-complete)
+(require 'auto-complete-config)
+(ac-config-default)
+(require 'go-autocomplete)
+
+;;(eval-after-load "go-mode")
+;;(eval-after-load "go-mode")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'ace-jump-mode)

@@ -169,6 +169,11 @@ ARCHIVE is the string name of the package archive.")
     hc-zenburn-theme
     helm-themes
     hemisu-theme
+    xcscope
+    helm-cscope
+    flymake-go
+    go-mode
+    go-autocomplete
     heroku-theme)
   "Don't install any Melpa packages except these packages")
 
@@ -294,5 +299,10 @@ ARCHIVE is the string name of the package archive.")
 (require-package 'quack) ;; for scheme
 (require-package 'hydra)
 (require-package 'ace-jump-mode)
+(require-package 'xcscope)
+;;(require-package 'helm-cscope)
+(require-package 'go-mode)
+(require-package 'flymake-go)
+(require-package 'go-autocomplete)
 
 (provide 'init-elpa)
