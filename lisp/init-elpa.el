@@ -174,6 +174,8 @@ ARCHIVE is the string name of the package archive.")
     flymake-go
     go-mode
     go-autocomplete
+    ac-clang
+    ac-etags
     heroku-theme)
   "Don't install any Melpa packages except these packages")
 
@@ -304,5 +306,7 @@ ARCHIVE is the string name of the package archive.")
 (require-package 'go-mode)
 (require-package 'flymake-go)
 (require-package 'go-autocomplete)
+(require-package 'ac-clang)
+(require-package 'ac-etags)
 
 (provide 'init-elpa)

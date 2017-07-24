@@ -4,10 +4,14 @@
 (require 'go-mode)
 (require 'go-mode-autoloads)
 (require 'flymake-go)
+(require 'yasnippet)
 (require 'auto-complete)
 (require 'auto-complete-config)
 (ac-config-default)
+;(require 'auto-complete-yasnippet)
 (require 'go-autocomplete)
+(require 'ac-clang)
+(require 'ac-etags)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'ace-jump-mode)
