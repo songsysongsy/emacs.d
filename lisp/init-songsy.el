@@ -16,7 +16,12 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'ace-jump-mode)
 (define-key global-map "\C-j" 'ace-jump-word-mode)
-;(define-key global-map "\C-cgl" 'goto-line)
+(define-key global-map "\C-csr" 'pop-tag-mark)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;(define-key key-translation-map "\C-j" "\C-cs")
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (defvar songsy-minor-mode-keymap
